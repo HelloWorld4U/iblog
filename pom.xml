@@ -9,7 +9,7 @@
     <!-- now -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
-
+    <!--halo-->
     <name>my-blog</name>
     <description>my-blog</description>
 
