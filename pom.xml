@@ -9,6 +9,7 @@
     <!-- now -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
+    <!-- 率先制造冲突的代码 -->
     <!--halo-->
     <name>my-blog</name>
     <description>my-blog</description>
