@@ -6,6 +6,7 @@
     <!-- 小明占有了这一行，已经先提交合并到主分支 -->
     <groupId>com.my.blog.website</groupId>
     <artifactId>my-blog</artifactId>
+    <!-- 666666 -->
     <!-- 3333333 -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
