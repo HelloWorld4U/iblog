@@ -6,7 +6,7 @@
     <!-- 小明占有了这一行，已经先提交合并到主分支 -->
     <groupId>com.my.blog.website</groupId>
     <artifactId>my-blog</artifactId>
-    <!-- 1111111 -->
+    <!-- 22222 -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
     <!-- 率先制造冲突的代码 -->
