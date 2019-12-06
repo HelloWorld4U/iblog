@@ -9,6 +9,26 @@ import java.util.Random;
  */
 public abstract class UUID {
 
+
+    private String name;
+
+private String age;
+private String sex;
+private String city;
+private String height;
+
+
+
+
+
+
+
+
+
+
+
+
+
     static Random r = new Random();
 
     /**
