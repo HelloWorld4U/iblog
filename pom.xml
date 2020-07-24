@@ -14,13 +14,7 @@
     <!-- 3333333 -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
-<!--234234324-->
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!--34234324343-->
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -28,7 +22,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-
+    <!--234234324-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--34234324343-->
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>
