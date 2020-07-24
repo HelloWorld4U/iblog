@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- 率先制造冲突的代码 -->
-    <!--halo-->
+    <!--hallllo-->
     <name>my-blog</name>
     <description>my-blog</description>
-    <!-- 小红也修改了5555这一行0401 -->
+    <!-- 小红也333333修改了5555这一行0401 -->
     <!-- 更新一下666666，已经先提交合并到主分支 -->
     <groupId>com.my.blog.website</groupId>
     <artifactId>my-blog</artifactId>
-    <!-- 3333333 -->
+    <!-- 3333333ddfdf -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
-<!--234234324-->
+    <!--234234324-ddddf->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--34234324343-->
