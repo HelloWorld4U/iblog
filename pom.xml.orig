@@ -2,8 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!-- 小红也修改了这一行 -->
-    <!-- 更新一下，已经先提交合并到主分支 -->
+<<<<<<< HEAD
 
     <!-- 率先制造冲突的代码 -->
     <!--halo-->
@@ -11,18 +10,20 @@
     <description>my-blog</description>
     <!-- 小红也修改了5555这一行0401 -->
     <!-- 更新一下666666，已经先提交合并到主分支 -->
+=======
+<!-- 小红也修改了这一行0401 -->
+    <!-- 更新一下，已经先提交合并到主分支 -->
+>>>>>>> e9033d0285bc5d6ef4274d3af0b98f666e69a29e
     <groupId>com.my.blog.website</groupId>
     <artifactId>my-blog</artifactId>
     <!-- 3333333 -->
     <version>3.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
-
-         <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                           <!--34234324343-->
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
+    <!-- 率先制造冲突的代码 -->
+    <!--halo-->
+    <name>my-blog</name>
+    <description>my-blog</description>
+    
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -30,20 +31,18 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <!--234234324-->
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
-              <dependency>
-            <groupId>com.qiniu</groupId>
-            <artifactId>qiniu-java-sdk</artifactId>
-            <version>7.2.12</version>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
-
-        <!-- Start: log4j2 -->
-
-             <!--3232323-->
-              <dependency>
+        <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>1.2.0</version>
@@ -59,12 +58,12 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.vdurmont</groupId>
-            <artifactId>emoji-java</artifactId>
-            <version>3.2.0</version>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>7.2.12</version>
         </dependency>
 
-
+        <!-- Start: log4j2 -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
@@ -72,13 +71,10 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-                 <!--添加注释-->
-                 <!--添加注释-->
             <artifactId>jcl-over-slf4j</artifactId>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-                 <!--添加注释-->
             <artifactId>jul-to-slf4j</artifactId>
         </dependency>
         <dependency>
@@ -129,9 +125,8 @@
             <artifactId>commonmark</artifactId>
             <version>0.8.0</version>
         </dependency>
-<!--242-->
+
         <dependency>
-            <!--werwere-->
             <groupId>com.atlassian.commonmark</groupId>
             <artifactId>commonmark-ext-gfm-tables</artifactId>
             <version>0.8.0</version>

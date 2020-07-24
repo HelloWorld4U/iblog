@@ -63,4 +63,7 @@ public class WebConst {
      * 同一篇文章在2个小时内无论点击多少次只算一次阅读
      */
     public static Integer HITS_LIMIT_TIME = 7200;
+
 }
+
+

@@ -1,8 +1,18 @@
+import com.my.blog.website.dto.DataSource;
+import org.apache.log4j.Logger;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.Arrays;
 
-
-public class Test{
-    private static final Logger LOGGER = LoggerFactory.getLogger(DataSource.class);
+class Test{
+    private static final Logger LOGGER = (Logger) LoggerFactory.getLogger(DataSource.class);
 
     @Pointcut("execution(public * com.my.blog.website.controller..*.*(..))")
     public void webLog(){}
